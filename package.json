@@ -1,0 +1,36 @@
+{
+  "name": "homecookd-backend",
+  "version": "1.0.0",
+  "description": "Backend api for homecookd",
+  "main": "app.js",
+  "scripts": {
+    "install": "mkdir logs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CUNYTech/homecookd.git"
+  },
+  "author": "Mohamed Khelif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CUNYTech/homecookd/issues"
+  },
+  "homepage": "https://github.com/CUNYTech/homecookd#readme",
+  "dependencies": {
+    "aws-sdk": "^2.213.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "hashset": "0.0.6",
+    "hat": "0.0.3",
+    "mongoose": "^5.0.11",
+    "multer": "^1.3.0",
+    "ocr": "^3.3.76",
+    "winston": "^2.4.1"
+  }
+}
